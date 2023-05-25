@@ -1,6 +1,14 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Poppins:wght@300&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
+
 header{
     background-color: #E6E6E6;
     text-align: center;
@@ -15,13 +23,14 @@ header{
 
 h1{
     background-color: #C4C4C4;
-    color: #005677;
+    color: #AD7BE9;
     font-size: 35px;
+    font-family: 'Righteous';
 }
 
 .tituloSeccion {
     background-color: #C4C4C4;
-    color: #005677;
+    color:  #AD7BE9;
 }
 
 ul li span{
@@ -37,12 +46,23 @@ ul li span{
 }
 
 footer{
-    background-color: #005677;
-    position: relative;
-    color: #FFFFFF;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
+    background-color: #C4C4C4;
+    color: #AD7BE9;
     text-align: center;
     line-height: 2.5rem;
 }
+
+i {
+    color: white;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+
+
+
+
