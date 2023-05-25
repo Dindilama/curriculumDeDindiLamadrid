@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap');
+
+
+.h1{
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+.parrafo {
+    text-align: justify;
+    height: 100%;
+    padding: 0;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+}
+
+
